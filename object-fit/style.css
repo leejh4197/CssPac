@@ -1,0 +1,31 @@
+img {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+.narrow {
+  width: 100px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
+}

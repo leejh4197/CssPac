@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- 스핀버튼 -->
+  <body>
+    <div>
+      <dl role="presentation">
+        <dt><span>성인</span></dt>
+        <dd class="wrap">
+          <button>-</button>
+          <label for="KE" class="offscreen">성인</label>
+          <input type="text" id="KE" value="0" maxlength="1" />
+          <div
+            class="offscreen"
+            aria-live="assertive"
+            aria-relevant="additions"
+            aria-atomic="true"
+          ></div>
+          <button>+</button>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>
+
+<!-- aria-live="assertive" 
+aria-relevant="additions" -->
+<!-- 추가되는 것을 읽어주는 속성 -->
+<!-- aria-atomic="true"-->
+<!-- 동적으로 변경된 것을 전부 읽어준다 -->

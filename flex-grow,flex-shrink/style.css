@@ -1,0 +1,19 @@
+.boxWrap {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.box {
+  background-color: yellowgreen;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+}
+.box:nth-child(1){
+  flex-shrink: 0;
+}

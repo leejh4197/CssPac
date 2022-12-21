@@ -1,0 +1,20 @@
+.boxWrap {
+  background-color: coral;
+  justify-content: center;
+  height: 300px;
+
+}
+.box {
+  background-color: yellowgreen;
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  align-items: center;
+  float: left;
+}
+.box:nth-child(3){
+  clear: both;
+}
